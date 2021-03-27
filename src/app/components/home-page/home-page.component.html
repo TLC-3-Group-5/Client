@@ -12,7 +12,7 @@
 <div class="home-background d-flex flex-column justify-content-center align-items-center ">
   <div class="d-flex flex-column justify-content-center align-items-center w-50">
     <h1 class="text-center">Trade With Us.</h1>
-  <button class="btn btn-lg login" (click)="goToLogin()">Login To Trade</button>
+  <button class="btn btn-lg login" [routerLink]="['/login']">Login To Trade</button>
     <p>or</p>
   <button class="btn btn-lg sign-up" (click)="goToRegister()"> Sign Up To Trade</button>
 
