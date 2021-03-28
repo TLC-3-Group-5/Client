@@ -1,0 +1,20 @@
+.fullscreen {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  .img-pane {
+    background-image: url("../../../assets/imgs/trends.jpg");
+  }
+  .floating-text {
+    position: relative;
+    left: 4rem;
+    top: 80%;
+  }
+  
+  .btn{
+    background: #1b262c;
+    color: #fff;
+  }
+  
